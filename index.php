@@ -7,6 +7,8 @@
    if (isset($_GET['page']))
      if ($_GET['page'])=="articles")
        include 'articles.html';
+     if ($_GET['page'])=="nous-contacter")
+       include 'nous-contacter.html';
   ?> 
   </div>
 <?php include 'footer.html'; ?>      
