@@ -27,6 +27,6 @@
    <li><a href="index.php?page=articles" title="Articles" <?php if (!isset($_GET['page'])) if ($_GET['page']=="articles") echo "class=\"current\""; ?> >Articles</a></li>
    <li><a href="index.php?page=tutos" title="Tutos" <?php if (!isset($_GET['page'])) if ($_GET['page']=="tutos") echo "class=\"current\""; ?> >Tutos</a></li>
    <li><a href="index.php?page=forums" title="Forums" <?php if (!isset($_GET['page'])) if ($_GET['page']=="forums") echo "class=\"current\""; ?> >Forums</a></li>
-   <li><a href="index.php?page=contact" title="Nous contacter" <?php if (!isset($_GET['page'])) if ($_GET['page']=="contact") echo "class=\"current\""; ?> >Nous contacter</a></li>
+   <li><a href="index.php?page=nous-contacter" title="Nous contacter" <?php if (!isset($_GET['page'])) if ($_GET['page']=="nous-contacter") echo "class=\"current\""; ?> >Nous contacter</a></li>
   </ul>
  </div> 
